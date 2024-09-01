@@ -1,0 +1,205 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+  gap: 50px;
+ 
+}
+#parent-container{
+    width:500px;
+    height:500px;
+    border: 1px solid black;
+    background-color: rgb(241, 204, 148);
+    border-radius: 15px;
+}
+.one,.two,.three,.four{
+    width:85px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: bisque;
+    margin: auto;
+    
+}
+#first{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding: 20px;
+}
+#ok{
+    width: 450px;
+    height: 140px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: auto;
+    background-color: antiquewhite;
+}
+#parent{
+    width:500px;
+    height:550px;
+    border: 1px solid black;
+    background-color: rgb(241, 204, 148);
+    border-radius: 15px;
+    
+}
+.section{
+    width: 450px;
+    height: 55px;
+    border: 1px solid black;
+    background-color: bisque;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 20px;
+    
+}
+#section1{
+    margin-top: 10px;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    gap: 20px;
+    padding: 20px;
+
+}
+#sect{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    
+
+ }
+.sec1{
+    width: 250px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: blanchedalmond;
+    border-radius: 15px;
+}
+.sec2,.sec3{
+    width: 185px;
+    height: 90px;
+    border: 1px solid black;
+    background-color: blanchedalmond;
+    border-radius: 15px;
+}
+#container{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 20px
+}
+.content1{
+    width: 125px;
+    height: 190px;
+    border: 1px solid black;
+    background-color: blanchedalmond;
+    border-radius: 15px;
+}
+.content2,.content3,.content4{
+    width: 310px;
+    height: 54px ;
+    border: 1px solid black;
+    background-color: blanchedalmond;
+    border-radius: 15px;
+}
+#note{
+    margin-right: 20px;
+    display: grid;
+
+}
+#container-parent{
+    width:500px;
+    height:550px;
+    border: 1px solid black;
+    background-color: rgb(241, 204, 148);
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.typo{
+    width: 285px;
+    height: 55px;
+    border: 1px solid black;
+    background-color: blanchedalmond;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+#type{
+    width: 285px;
+    height: 430px;
+    border: 1px solid black;
+    background-color: blanchedalmond;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 15px;
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+}
+.type2{
+    width: 160px;
+    height: 505px;
+    border: 1px solid black;
+    background-color: blanchedalmond;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.typ1,.typ2,.typ3,.typ4,.typ5,.typ6{
+   width: 120px;
+   height: 110px;
+   border: 1px solid black;
+  background-color: azure;
+  border-radius: 15px;  
+  margin-top: 15px;
+    margin-left: 10px;
+}   
+#contain{
+    width:600px;
+    height:500px;
+    border: 1px solid black;
+    background-color: rgb(11, 107, 216);
+    border-radius: 15px;
+   
+}
+.contain1{
+    width: 250px;
+   height: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.contains1,.contains2{  
+    width: 150px;
+   height: 150px;
+   border: 1px solid black;
+  background-color: rgb(249, 247, 92);
+  border-radius: 50%;  
+   margin-top: 50px;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+.contain2{
+    width: 150px;
+    height: 100px;
+    border: 1px solid black;
+    background-color: rgba(238, 79, 233, 0.856);
+    border-radius: 15px;  
+    margin: auto;
+    
+}
+.contain3{
+    width: 525px;
+    height: 85px;
+    border: 1px solid black;
+    background-color: rgba(238, 79, 233, 0.856);
+    border-radius: 15px;  
+    margin: auto;
+    margin-top: 30px;
+}
+#we{
+    margin-top: 50px;
+    display: grid;
+    grid-template-rows: 2fr;
+}
