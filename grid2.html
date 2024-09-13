@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="grid2.css">
+</head>
+<body>
+    <div id="main">
+        <h1>Job Application Form</h1>
+        
+        <p>Thank you for your interest in working with us. please check below for available job opportunities that meet your criteria and send your application by filling out the Job Application Form</p>
+    
+       <div class="one">
+        <label  for="">Name</label><br>
+         <input class="input" type="text" placeholder="first">
+         <input class="input" type="text" placeholder="last">
+        </div>
+
+        <div class="two">
+            <label  for="">Email</label>
+             <input class="input" type="text" placeholder="john.doe@example.com">
+            </div>
+
+        <div id="three">
+            <div class="first">   
+                <label for="">Which position are you applying for?</label>
+                <select id="occupation" name="occupation">
+                    <option value="- select -">- select -</option>
+                    <option value="project manager">Project manager</option>
+                    <option value="designer">Designer</option>
+                    <option value="developer">Developer</option>
+                    <option value="coding">Coding</option>
+                </select>
+            </div>
+            <div class="second">
+                <label for="">Available date</label>
+                <select id="date" name="date">
+                    <option value="DD/MM/YYYY"> DD / MM / YYYY</option> 
+                    <option value="20/05/2081">20/05/2081</option>
+                    <option value="23/05/2081">23/05/2081</option>
+                    <option value="25/05/2081">25/05/2081</option>
+                </select>
+            </div>
+        </div>
+
+        <div id="four">
+            <label for="">What is your current employmee status? </label>
+            <div></div>
+        <div class="ok">
+            <input type="radio"><label for="Employed">Employed</label></div>
+            <div class="okk">
+            <input type="radio"><label for="Self-Employed">Self-Employed</label>
+        </div>
+        <div class="okkk">
+            <input type="radio"><label for="Unemployed">Unemployed</label>
+        </div>
+        <div class="ookk">
+           <input type="radio"><label for="Student">Student</label>
+        </div> 
+        </div>
+
+        <div id="five">
+            <div class="so">
+            <label>Please provide your resume link</label>
+            <input type="input" type="text" placeholder="https://www.example.com/">
+            </div>
+            <div class="soo">
+                <label>please upload your resume</label>
+                <input placeholder="Resume">
+            </div>
+        </div>
+
+        <div id="six">
+            <label>Do you have refrences? (optional)</label><br>
+            <input class="input" type="text" placeholder="first">
+            <input class="input" type="text" placeholder="last">
+        </div>
+
+        <div id="seven">
+            <label>Refrence email</label>
+            <input class="input" type="text" placeholder="john.doe@example.com">
+        </div>
+
+        <div id="eight">
+            <button>Reset</button>
+            <nav>
+            <button style="color: white;">Apply</button>
+            </nav>
+        </div>
+    </div>
+
+
+</body>
+</html>
